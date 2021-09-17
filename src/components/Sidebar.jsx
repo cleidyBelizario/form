@@ -1,6 +1,6 @@
 import React from 'react'
 import styleDash from '../CSS/mainview.module.css'
-import Figuro from "../assets/Figuro Transparente.png"
+import Figuro from "../assets/figuroLogo.png"
 
 export default function Sidebar() {
    return (

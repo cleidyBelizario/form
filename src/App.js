@@ -22,20 +22,11 @@ function App() {
         <Fragment>
           <Router>
             <Switch>
-              <Route path="/pensiones">
-                <Grips />
-              </Route>
-              <Route path="/salud">
-                <Health />
-              </Route>
-              <Route path="/educacion">
-                <Education />
-              </Route>
               <Route path="/formulario">
-              <MostrarLogin />
-              <Login></Login>
+                <MostrarLogin />
+                <Login></Login>
               </Route>
-              <Route path="/dashboard">
+               <Route path="/dashboard">
                 <Dashboard />
               </Route>
             </Switch>
